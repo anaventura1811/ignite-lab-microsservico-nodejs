@@ -15,3 +15,21 @@ Microsserviços
 
     Module --> acopla vários arquivos e serviços
     --> podemos importar um module dentro de outros
+
+    Processos de design de software 
+
+    --> Pensar a arquitetura do app:
+      --> como estruturar a aplicação, pensar no software e planejar antes de ir para o código 
+      --> manutenibilidade 
+      --> escalabilidade
+
+    --> DDD - Domain Driven Design
+    
+    --> Requisitos funcionais (features/funcionalidades), requisitos não funcionais (não interferem na funcionalidade, mas essenciais para a aplicação - regras de negócio, etc)
+    --> como pensar o funcionamento da minha aplicação sem banco de dados e deixar a conexão ao banco de dados para um momento posterior (pensando nele como ferramenta para persistência de dados) --> Aprofundar sobre: alto acoplamento das camadas
+
+  --> Entidades --> Uma forma de pensar em entidades é pensando-as em uma estrutura de classe
+    --> Nem todas as entidades precisam ser uma tabela no banco de dados
+    --> às vezes, uma única entidade pode dar origem a várias tabelas do banco de dados, por razões de manutenibilidade, consultas e etc 
+
+  Value objects
