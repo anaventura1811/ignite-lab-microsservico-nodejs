@@ -1,0 +1,17 @@
+Microsserviços
+
+2 tipos de arquitetura (no que diz respeito ao deploy) comuns para seguir nas aplicações:
+--> toda a aplicação em uma única base de código (monolito)
+    comunicação simples - uma code base e um db (database)
+    problema: escalabilidade exige mais recursos, mais memória, há dificuldade de manutenção
+--> microsserviços
+    divide a aplicação em várias aplicações menores
+    microsserviços para cada área de especialização do nosso negócio
+    ex.: ecommerce - microsserviços de checkout, de carrinho, de NFe, de logística, autenticação, catálogo
+    --> impacto maior na comunicação entre os apps
+    --> independência entre os microsserviços/aplicações (ex.: uma lentidão em um deles não pode impactar nos outros microsserviços)
+    --> independência na parte de banco de dados (um banco de dados para cada microsserviço)
+    --> duplicidade de dados
+
+    Module --> acopla vários arquivos e serviços
+    --> podemos importar um module dentro de outros
